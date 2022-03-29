@@ -1,3 +1,9 @@
+# Lex fork of react-native-wheel-picker-android
+
+Hi!
+
+So we needed a wheel picker that we could customize the style of, particularly the font family. At the time of writing there is no good community solution out there other than `react-native-wheel-picker-android`, but the npm published version ([here](https://www.npmjs.com/package/react-native-wheel-picker-android)) still uses the deprecated `Picker` component exported from `react-native`, which doesn't exist in newer react native versions. The repo on github ([here](https://github.com/Cero-Studio/ReactNativeWheelPicker)) has actually been updated to fix this problem! But a new version hasn't been published to [npm](https://www.npmjs.com/package/react-native-wheel-picker-android) in over a year. Since the latest update to the main repo, the recommended community version of `Picker` to use has changed again (from `@react-native-community/picker` to `@react-native-picker/picker`). Some people are using a fork at [`victorzimnikov/ReactNativeWheelPicker`](https://github.com/victorzimnikov/ReactNativeWheelPicker) which has updated to this newer `Picker`, so we forked this version for us to use until a better solution comes along.
+
 # React native wheel picker V2
 
 <p>
